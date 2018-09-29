@@ -1,7 +1,6 @@
 
 开发语言：JAVA
 适用JDK版本：1.5及以上
-版权：ipayLinks(启赟金融)
 
 1.下载jar包添加依赖
    sdk-java-common-1.0.jar
