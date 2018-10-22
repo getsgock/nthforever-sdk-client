@@ -302,7 +302,9 @@ public abstract class AbstractIpayClient implements IpayClient {
             String sysMustQuery = WebUtils.buildQuery(requestHolder.getProtocalMustParams(),
                     charset);
             String sysOptQuery = WebUtils.buildQuery(requestHolder.getProtocalOptParams(), charset);
-
+            String method = requestHolder.getProtocalMustParams().get(IpayConstants.METHOD);
+            method = method.replace(".", "/");
+            urlSb.append(method);
             urlSb.append("?");
             urlSb.append(sysMustQuery);
             if (sysOptQuery != null & sysOptQuery.length() > 0) {
