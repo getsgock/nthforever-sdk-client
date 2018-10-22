@@ -20,7 +20,7 @@ import java.security.SecureRandom;
 
 public class Client {
 
-    static final String SERVER_URL="http://localhost:8080/jiaqi/test/index";
+    static final String SERVER_URL="http://localhost:8080/jiaqi/";
     static final String APP_ID="jiaqi";
     static final String PRIVATE_KEY="MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAIOd6Hk5jw8alL4zX+g5ZA+ujEpbdpMeKdBfbOegZI8NkAknLNh41Af0MiUXhQ0UUNZHfOB+ErKcFiAROgkwtSdjULxFmB/dPhQ8lWrOkh6axJcJ4+0O3vD8a9s89+saOIRMWxJ6bwV7WuXIj1h6FihM19AUnYCFzoxciCigaN8xAgMBAAECgYBldFV9DIdgJyc9LjDhu0uMYwo1Tyep4/hrbQNv0M1zEAtVYuNIwmr+7pewy9595Ikjg9uY2NXk5DiR43WPHAKnBuc/0SnJBxZrrmWE+X/PVbMO4g72XKhJi2yvQXUrPoqXl/QCgMaXHDstW9TgLbAc/oBBXpqF4puIsJ5buiXfgQJBAOHg7I4xCCyL9+J0nZQ5whzggQ058NFDP1lF940gK/bfVTsHV5fE21xU4uIvcBOv5qVy/br9O/0k6gMF+mF0cGkCQQCVKw/hB3fD/t6OCJULYCagcG6z/zAqCMFwcQGvjoxQAQdoGt7PXLQLVGhbNbILCoLPBoa6fzcJ1g84E/X0HB+JAkEAq5IhnM/5mXynyUcy+of0veJ5pAZCuXEPCUxwAK5TNq3lG3U0P3+z76o6u/u0cf/Gfh2eRQ5dJqeHaMx9ptC/IQJAENIAQmGzMZilw+JX3CaFdIX5Fbbq2XKPTXyQshki3UqgaS7OfRd4/eYQtmhBoVkYEvwraRA7RpKquKoXi+U38QJAJCvphVu0CRI8XfhYEQHTuHImunKv1RZcC+f589YMbkEvRoRXsD3inSpZpRhwjLstnQVZqM7nCgoDA8O2RjMOpQ==";
     static final String PUBLIC_KEY="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDneh5OY8PGpS+M1/oOWQProxKW3aTHinQX2znoGSPDZAJJyzYeNQH9DIlF4UNFFDWR3zgfhKynBYgEToJMLUnY1C8RZgf3T4UPJVqzpIemsSXCePtDt7w/GvbPPfrGjiETFsSem8Fe1rlyI9YehYoTNfQFJ2Ahc6MXIgooGjfMQIDAQAB";

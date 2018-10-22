@@ -62,7 +62,7 @@ public class MyRequest implements IpayRequest<MyResponse> {
 
     @Override
     public String getApiMethodName() {
-        return "hello";
+        return "test.hello";
     }
 
     @Override
